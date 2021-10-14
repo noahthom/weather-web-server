@@ -21,7 +21,7 @@ weatherForm.addEventListener('submit', (e) => {
             if(data.error){
                 messageWeather.textContent = data.error
             }else{
-                messageWeather.textContent = 'It is currently ' + data.forecast + ' in ' + data.location + 'with a temperature of ' + data.temperature + ' degrees Celcius. Humidity is ' + data.humidity + '.'
+                messageWeather.textContent = 'It is currently ' + data.forecast + ' in ' + data.location + ' with a temperature of ' + data.temperature + ' degrees Celcius. Humidity is ' + data.humidity + '.'
             }
         })
     })
